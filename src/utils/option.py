@@ -35,7 +35,7 @@ parser.add_argument('--rates', type=str, default='1+2+4+8',
 parser.add_argument('--netD', type=str, default='Unet',
                     help='discriminator network: (Unet | ResUnet)')
 parser.add_argument('--use_D_attn', action='store_true',
-                    help='use self-attention in netD')    
+                    help='use SCAL in netD')    
 parser.add_argument('--no_SN', action='store_true',
                     help='not use spectral normalization in netD')    
 parser.add_argument('--globalgan_type', type=str, default='hingegan',
